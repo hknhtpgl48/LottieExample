@@ -13,6 +13,8 @@
 		FF37C3D52BA180A100899FB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF37C3D42BA180A100899FB6 /* Preview Assets.xcassets */; };
 		FF37C3DF2BA183C500899FB6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FF37C3DE2BA183C500899FB6 /* Lottie */; };
 		FF37C3E12BA1844F00899FB6 /* biker.json in Resources */ = {isa = PBXBuildFile; fileRef = FF37C3E02BA1844F00899FB6 /* biker.json */; };
+		FF99F7902BA1B19B008A3916 /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF99F78F2BA1B19B008A3916 /* DeviceOrientation.swift */; };
+		FF99F7922BA1B474008A3916 /* compass.json in Resources */ = {isa = PBXBuildFile; fileRef = FF99F7912BA1B474008A3916 /* compass.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF37C3D12BA180A100899FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF37C3D42BA180A100899FB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF37C3E02BA1844F00899FB6 /* biker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = biker.json; sourceTree = "<group>"; };
+		FF99F78F2BA1B19B008A3916 /* DeviceOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientation.swift; sourceTree = "<group>"; };
+		FF99F7912BA1B474008A3916 /* compass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = compass.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FF37C3CF2BA1809F00899FB6 /* ContentView.swift */,
 				FF37C3D12BA180A100899FB6 /* Assets.xcassets */,
 				FF37C3D32BA180A100899FB6 /* Preview Content */,
+				FF99F78F2BA1B19B008A3916 /* DeviceOrientation.swift */,
+				FF99F7912BA1B474008A3916 /* compass.json */,
 			);
 			path = LottieExample;
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 			files = (
 				FF37C3D52BA180A100899FB6 /* Preview Assets.xcassets in Resources */,
 				FF37C3E12BA1844F00899FB6 /* biker.json in Resources */,
+				FF99F7922BA1B474008A3916 /* compass.json in Resources */,
 				FF37C3D22BA180A100899FB6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF37C3D02BA1809F00899FB6 /* ContentView.swift in Sources */,
+				FF99F7902BA1B19B008A3916 /* DeviceOrientation.swift in Sources */,
 				FF37C3CE2BA1809F00899FB6 /* LottieExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
